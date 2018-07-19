@@ -24,26 +24,21 @@ Check file _application.properties_ of project Zuul_Proxy (our proxy here).
 
 Inside here we are setting our routes. We also set the port on which the application will run.
 
-`
+```
 zuul.routes.person.url=http://localhost:8090
-`
-
-`
 server.port=9000
-`
+```
+
 
 #### Zuul Responder:
 
 Check file _application.properties_ of project Zuul_Responder. 
 There you can see that the name of the application is **person**. We also set the port on which the application will run.
 
-`
+```
 spring.application.name=person
-`
-
-`
 server.port=8090
-`
+```
 
 #### Zuul Proxy - Set our routes
 
