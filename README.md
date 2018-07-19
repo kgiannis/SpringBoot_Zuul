@@ -12,4 +12,5 @@ Type: *http://localhost:8090/getPerson* to get the person details on browser.
 ### With proxy
 Project **Zuul_Proxy** is running on port 9000.
 Now in order to get the same result using the proxy 
+
 Type: *http://localhost:9000/person/getPerson*
